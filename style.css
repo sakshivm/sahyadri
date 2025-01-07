@@ -20,6 +20,12 @@ header {
     text-align: center;
 }
 
+header img {
+  width: 1240px;
+  height: 200px;
+  object-fit: fill;
+}
+
 header nav ul {
     list-style: none;
     padding: 0;
@@ -122,12 +128,12 @@ header nav ul li a:hover {
     background-color: #388E3C;
 }
 
+
 /* Care Guides Section */
 #care-guides {
     padding: 40px 20px;
     background-color: #E8F5E9;
-    text-align: center;
-}
+   }
 
 #care-guides h2 {
     font-size: 2.5em;
@@ -141,6 +147,12 @@ header nav ul li a:hover {
 
 #care-guides a:hover {
     text-decoration: underline;
+}
+
+#about {
+	 padding: 40px 20px;
+    background-color: white;
+    text-align: center;
 }
 
 /* Contact Section */
